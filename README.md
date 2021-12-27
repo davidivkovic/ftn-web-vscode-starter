@@ -2,7 +2,7 @@
 
 1. Install the [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
-    ## If vscode doesn't recognize the java project, open any `.java` file contained in the [`src/main/java`](/src/main/java) directory to kick off the Java Language Server.
+    #### If vscode doesn't recognize the java project, open any `.java` file contained in the [`src/main/java`](/src/main/java) directory to kick off the Java Language Server.
 
 2. Install the [Tomcat for Java](https://marketplace.visualstudio.com/items?itemName=adashen.vscode-tomcat) extension
 
