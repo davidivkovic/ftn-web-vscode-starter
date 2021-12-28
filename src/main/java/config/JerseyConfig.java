@@ -22,9 +22,7 @@ public class JerseyConfig extends ResourceConfig {
     public JerseyConfig(ServiceLocator locator) {
         ServiceLocatorUtilities.enableImmediateScope(locator);
         
-        packages(
-            ProductsController.class.getPackage().getName()
-        );
+        packages("controllers");
 
         // Enable LoggingFilter & output entity.     
         registerInstances(new LoggingFilter(Logger.getLogger(JerseyConfig.class.getName()), true));

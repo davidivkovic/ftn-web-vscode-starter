@@ -81,13 +81,12 @@ register(new AbstractBinder() {
 });
 ```
 
-- At least one controller has to be registered for package resolution, the server won't start without this
+- Register the package for controller resolution, the server won't start without this (change this if you change the controllers package name):
 
 ```java
-packages(
-    ProductsController.class.getPackage().getName()
-);
+packages("controllers");
 ```
+
 
 [`server/apache-tomcat-8.0.47/conf/server.xml`](/server/apache-tomcat-8.0.47/conf/server.xml)
 - You can change the api port here
