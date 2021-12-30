@@ -1,6 +1,23 @@
+Works only only on Windows x64
+
+## Preparing the project
+
+1. Extract `server.zip` to the root directory of the project
+   The diretory should look like this:
+    ```
+    - .vscode
+    - server
+        - apache-tomcat-8.0.47
+        - jre1.8.0_231
+    - dist
+    - src
+    ...
+    ```
+
 ## Setting up vscode:
 
-1. Install the [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+1. Install the [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack).
+   This extension requires a JDK11+ installation. You can get it [here](https://www.oracle.com/java/technologies/downloads/#jdk17-windows).
 
     #### If vscode doesn't recognize the java project, open any `.java` file contained in the [`src/main/java`](/src/main/java) directory to kick off the Java Language Server.
 
