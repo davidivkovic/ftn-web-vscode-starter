@@ -2,8 +2,8 @@ Works only only on Windows x64
 
 ## Preparing the project
 
-1. Extract `server.zip` to the root directory of the project
-   The diretory should look like this:
+1. Extract [`server.zip`](server.zip) to the root directory of the project
+   The directory should look like this:
     ```
     - .vscode
     - server
