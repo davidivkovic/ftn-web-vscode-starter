@@ -84,7 +84,7 @@
 
   You can stop it by using Command Palette (Ctrl + Shift + P) > Stop Tomcat Server.
 
-  If this does not work you can use the command `./catalina.bat stop` inside [`server/apache-tomcat-8.0.47\bin`](/server/apache-tomcat-8.0.47/bin)
+  If this does not work you can use the command `./catalina.bat stop` inside [`server/apache-tomcat-8.0.47/bin`](/server/apache-tomcat-8.0.47/bin)
 
 - The controllers use GSON to serdes api requests and responses
 
