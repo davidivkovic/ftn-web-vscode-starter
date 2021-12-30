@@ -80,6 +80,12 @@ Works only only on Windows x64
 
 ## Important notes
 
+- Always stop the tomcat server before exiting VSCode. Otherwise tomcat will not release the port `8080` and you will not be able to run it again.
+
+  You can stop it by using Command Palette (Ctrl + Shift + P) > Stop Tomcat Server.
+
+  If this does not work you can use the command `./catalina.bat stop` inside [`server/apache-tomcat-8.0.47\bin`](/server/apache-tomcat-8.0.47/bin)
+
 - The controllers use GSON to serdes api requests and responses
 
 [`config/JerseyConfig.java`](/src/main/java/config/JerseyConfig.java)
@@ -113,3 +119,4 @@ packages("controllers");
 ```xml
 <Connector port="8080" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" />
 ```
+
