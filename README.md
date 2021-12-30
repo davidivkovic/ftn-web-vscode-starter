@@ -2,7 +2,7 @@ Works only only on Windows x64
 
 ## Preparing the project
 
-1. Extract [`server.zip`](server.zip) to the root directory of the project
+1. Extract [`server.zip`](server.zip) to the root directory of the project.
    The directory should look like this:
     ```
     - .vscode
@@ -13,6 +13,7 @@ Works only only on Windows x64
     - src
     ...
     ```
+2. Open the root directory with VSCode
 
 ## Setting up vscode:
 
@@ -44,6 +45,8 @@ Works only only on Windows x64
     ```
 
 2. Command Palette (Ctrl + Shift + P) > Add Tomcat Server > Select [`server/apache-tomcat-8.0.47`](server/apache-tomcat-8.0.47)
+
+3. Restart VSCode
     
 ## Building the project:
 
