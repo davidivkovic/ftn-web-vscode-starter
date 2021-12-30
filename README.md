@@ -1,4 +1,4 @@
-Works only only on Windows x64
+## Works only only on Windows x64
 
 ## Preparing the project
 
